@@ -1,0 +1,1 @@
+docker run -it --rm --gpus all -v /mnt/d:/mnt/d pytorch-d-gpu

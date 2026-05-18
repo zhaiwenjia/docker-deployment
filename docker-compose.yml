@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  pytorch_dev:
+    build: .
+    container_name: pytorch-d-gpu
+    runtime: nvidia
+    environment:
+      - JUPYTER_PASSWORD=${JUPYTER_PASSWORD}
+    ports:
+      - "${JUPYTER_PORT:-5866}:5866"
+      - "${VSCODE_PORT:-8080}:8080"
+      - "2222:22"
+    volumes:
+      - /mnt/d:/mnt/d
+    working_dir: /mnt/d

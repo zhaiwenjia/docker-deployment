@@ -1,0 +1,14 @@
+# 显示频道 URL
+show_channel_urls: true
+
+# 移除默认的 defaults（防止访问官方源）
+default_channels: []
+
+# 自定义频道列表（优先级从上到下）
+channels:
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+  - https://mirrors.cernet.edu.cn/anaconda-extra/cloud/nvidia
