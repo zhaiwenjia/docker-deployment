@@ -1,4 +1,4 @@
-# SkillEvolve-RL · 开发环境（Docker）
+# 开发环境（Docker）
 
 > **Ubuntu 24.04 + CUDA 12.8 + PyTorch + Conda + Jupyter + VS Code**
 
